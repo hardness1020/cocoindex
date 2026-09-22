@@ -126,6 +126,7 @@ A walkthrough URL means there's a step-by-step guide at
 - `hn_trending_topics` — scrape HackerNews → LLM topic extraction → Postgres.
 - `manuals_llm_extraction` — PDF manuals → Markdown (docling) → typed module records → Postgres. *(walkthrough: manuals-llm-extraction)*
 - `patient_intake_extraction_baml` / `patient_intake_extraction_dspy` — structured PDF extraction with BAML / DSPy (Gemini vision).
+- `document_triage_typesafe`: local Markdown → TypeSafe Jev category + completeness score → one JSON per doc with Python `ready`/`needs_review` routing; threshold changes reuse memoized evaluations.
 
 ### Knowledge graphs
 - `conversation_to_knowledge` — YouTube podcasts → SurrealDB knowledge graph. *(walkthrough: podcast-to-knowledge-graph)*

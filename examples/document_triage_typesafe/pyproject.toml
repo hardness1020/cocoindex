@@ -1,0 +1,9 @@
+[project]
+name = "document-triage-typesafe"
+version = "0.1.0"
+description = "Classify Markdown docs and route them for review with TypeSafe Jev and CocoIndex."
+requires-python = ">=3.11"
+dependencies = ["cocoindex>=1.0.7", "typesafe-sdk>=0.7.1"]
+
+[tool.setuptools]
+packages = []
